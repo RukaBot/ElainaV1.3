@@ -13,12 +13,12 @@ const tambahan = require("./lib/tambahan.js")
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'ELAINA BOT'; 
+const BotName = 'Tetsu-bot'; 
 const instagram = 'https://instagram.com/sndrzqy_'; 
-const telegram = 'ikiiii2906'; 
+const telegram = '@kakkoimakun'; 
 const kapanbotaktif = 'Tergantung Server'; 
 const youtube = 'Unknown People';
-//const grupch1 = 'https://chat.whatsapp.com/JKhKJDkEDpg4srefqACH1y'; 
+//const grupch1 = 'belum ada grup'; 
 //const grupch2 = 'belum ada grup' ; 
 const
 {
@@ -103,7 +103,7 @@ if (text == 'Elaina')
 {
 conn.sendMessage(id, tambahan.halo ,MessageType.text);
 }
-else if (text == 'Siapa owner Elaina?')
+else if (text == 'Siapa owner kamu?')
 {
 conn.sendMessage(id, tambahan.hai ,MessageType.text);
 }
@@ -131,7 +131,7 @@ else if (text == 'Halo')
 {
 conn.sendMessage(id, tambahan.halo ,MessageType.text);
 }
-else if (text == 'Siapa owner elaina')
+else if (text == 'Siapa owner tetsu?')
 {
 conn.sendMessage(id, tambahan.hai ,MessageType.text);
 }
@@ -151,7 +151,7 @@ else if (text == 'Test')
 {
   conn.sendMessage(id, tambahan.test, MessageType.text);
 }
-else if (text == 'Siapa owner elaina?')
+else if (text == 'Siapa ownerny?')
 {
 conn.sendMessage(id, tambahan.hai ,MessageType.text);
 }
